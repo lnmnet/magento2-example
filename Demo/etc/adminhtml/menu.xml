@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+  <menu>
+    <add id="Learning_Demo::demo" title="Learning" module="Learning_Demo" sortOrder="151" resource="Learning_Demo::demo"/>
+    <add id="Learning_Demo::post" 
+      title="Manage Posts" 
+      module="Learning_Demo" 
+      sortOrder="10" 
+      action="learning_demo/post" 
+      resource="Learning_Demo::post" 
+      parent="Learning_Demo::demo"/>
+  </menu>
+</config>

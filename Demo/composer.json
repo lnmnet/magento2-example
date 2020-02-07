@@ -1,26 +1,24 @@
 {
   "name": "Learning/demo",
   "description": "",
-
   "type": "magento2-module",
   "version": "1.0.0",
-  "license": "Mageplaza License",
+  "license": "MIT",
   "authors": [
-      {
-        "name": "lnmnet",
-        "email": "lnmnet@gmail.com",
-        "homepage": "lnmnet.tk",
-        "role": "Leader"
-      }
+    {
+      "name": "lnmnet",
+      "email": "lnmnet@gmail.com",
+      "homepage": "",
+      "role": "Leader"
+    }
   ],
-
   "autoload": {
-      "files": [
-          "registration.php"
-      ],
-      "psr-4": {
-          "Learning\\Demo\\": ""
-      }
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Learning\\Demo\\": ""
+    }
   }
 
 }
